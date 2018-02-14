@@ -1,6 +1,6 @@
 #-------------------------------------------------
 #
-# Project created by QtCreator 2018-02-12T13:28:03
+# Project created by QtCreator 2018-02-12T19:03:53
 #
 #-------------------------------------------------
 
@@ -25,10 +25,12 @@ DEFINES += QT_DEPRECATED_WARNINGS
 
 SOURCES += \
         main.cpp \
-        mainwindow.cpp
+        mainwindow.cpp \
+    mytimer.cpp
 
 HEADERS += \
-        mainwindow.h
+        mainwindow.h \
+    mytimer.h
 
 FORMS += \
         mainwindow.ui
